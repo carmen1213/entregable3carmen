@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class tarea {
 
 	public static void main(String[] args) {
+		
+		//array
 Scanner sc=new Scanner (System.in);
 System.out.println("1-Crear una nueva Tarea");
 System.out.println("2- Ver tareas completadas");
