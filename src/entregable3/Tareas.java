@@ -4,14 +4,12 @@ public class Tareas {
 	
 	private Date fecha;
 	private String titulo;
-	private String estado;
+	private boolean estado;
 	
-	public void Tareas ( Date Fecha, String Titulo, String Estado) {
-		 
+	public Tareas ( Date Fecha, String Titulo,boolean Estado) {
 		 this.fecha=Fecha;
 		 this.titulo=Titulo;
 		 this.estado=Estado;
-		 
 	}
 	
 	public Date getFecha() {
@@ -20,7 +18,7 @@ public class Tareas {
 	public String getTitulo() {
 		return titulo;
 	}
-	public String getEstado() {
+	public boolean getEstado() {
 		return estado;
 	}
 	
@@ -32,7 +30,7 @@ public class Tareas {
 		this.titulo=Titulo;
 		
 	}
-	public void setEstado(String Estado) {
+	public void setEstado(boolean Estado) {
 		this.estado=Estado;
 		
 	}
